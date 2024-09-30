@@ -1,0 +1,12 @@
+#pragma once
+#include "serv/base.h"
+#include "serv/base.cpp"
+#include "serv/communicator.h"
+#include "serv/communicator.cpp"
+#include "serv/journal.h"
+#include "serv/journal.cpp"
+#include "serv/interface.h"
+#include "serv/interface.cpp"
+#include "serv/error.h"
+#include "serv/data_handler.h"
+#include "serv/data_handler.cpp"
