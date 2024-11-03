@@ -1,0 +1,9 @@
+<map id="interface.h" name="interface.h">
+<area shape="rect" id="node1" title="Заголовочный файл модуля interface." alt="" coords="333,5,425,32"/>
+<area shape="rect" id="node2" href="$communicator_8h.html" title="Заголовочный файл модуля communicator." alt="" coords="168,80,295,107"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Главный файл проекта" alt="" coords="305,229,387,256"/>
+<area shape="rect" id="node7" href="$interface_8cpp.html" title="Исполняемый файл модуля interface." alt="" coords="417,80,523,107"/>
+<area shape="rect" id="node3" href="$communicator_8cpp.html" title="Исполняемый файл модуля communicator." alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node4" href="$data__handler_8h.html" title="Заголовочный файл модуля data_handler." alt="" coords="172,155,291,181"/>
+<area shape="rect" id="node5" href="$data__handler_8cpp.html" title="Исполняемый файл модуля data_handler." alt="" coords="147,229,281,256"/>
+</map>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SERV Маркина: Исходный файл data_handler.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SERV Маркина
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Курсовая работа</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">data_handler.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="data__handler_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="communicator_8h.html">communicator.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="error_8h.html">error.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="journal_8h.html">journal.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;limits&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span><a class="code" href="classcommunicator.html">communicator</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classdata__handler.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classdata__handler.html">data_handler</a>{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classdata__handler.html#abe0740dea0f759c1e1df8cf4b38ec67e">   25</a></span>&#160;    <a class="code" href="classcommunicator.html">communicator</a>&amp; <a class="code" href="classdata__handler.html#abe0740dea0f759c1e1df8cf4b38ec67e">s</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classdata__handler.html#a1d865317cde9613ecb9625bfaf55d208">   29</a></span>&#160;    uint32_t <a class="code" href="classdata__handler.html#a1d865317cde9613ecb9625bfaf55d208">num_of_vec</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    int64_t <a class="code" href="classdata__handler.html#aeaa3ee5bf7c66ff081cfe278d3a134a1">calculator</a>(int64_t number1, int64_t number2);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classdata__handler.html#a4aae2bd100c4d23525a0b724648ae718">handle_calculation</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classdata__handler.html#ab931b9235b3e4f909d89eb26d910f2fc">   48</a></span>&#160;    <a class="code" href="classdata__handler.html#ab931b9235b3e4f909d89eb26d910f2fc">data_handler</a>(<a class="code" href="classcommunicator.html">communicator</a>&amp; serv):<a class="code" href="classdata__handler.html#abe0740dea0f759c1e1df8cf4b38ec67e">s</a>(serv){}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="ttc" id="aclasscommunicator_html"><div class="ttname"><a href="classcommunicator.html">communicator</a></div><div class="ttdoc">Класс коммуникатора</div><div class="ttdef"><b>Definition:</b> communicator.h:42</div></div>
+<div class="ttc" id="aclassdata__handler_html"><div class="ttname"><a href="classdata__handler.html">data_handler</a></div><div class="ttdoc">Класс обработки данных</div><div class="ttdef"><b>Definition:</b> data_handler.h:20</div></div>
+<div class="ttc" id="aclassdata__handler_html_a1d865317cde9613ecb9625bfaf55d208"><div class="ttname"><a href="classdata__handler.html#a1d865317cde9613ecb9625bfaf55d208">data_handler::num_of_vec</a></div><div class="ttdeci">uint32_t num_of_vec</div><div class="ttdoc">Количество векторов</div><div class="ttdef"><b>Definition:</b> data_handler.h:29</div></div>
+<div class="ttc" id="aclassdata__handler_html_a4aae2bd100c4d23525a0b724648ae718"><div class="ttname"><a href="classdata__handler.html#a4aae2bd100c4d23525a0b724648ae718">data_handler::handle_calculation</a></div><div class="ttdeci">int handle_calculation()</div><div class="ttdoc">Обработка данных от клиента</div><div class="ttdef"><b>Definition:</b> data_handler.cpp:9</div></div>
+<div class="ttc" id="aclassdata__handler_html_ab931b9235b3e4f909d89eb26d910f2fc"><div class="ttname"><a href="classdata__handler.html#ab931b9235b3e4f909d89eb26d910f2fc">data_handler::data_handler</a></div><div class="ttdeci">data_handler(communicator &amp;serv)</div><div class="ttdoc">Конструктор инициализации</div><div class="ttdef"><b>Definition:</b> data_handler.h:48</div></div>
+<div class="ttc" id="aclassdata__handler_html_abe0740dea0f759c1e1df8cf4b38ec67e"><div class="ttname"><a href="classdata__handler.html#abe0740dea0f759c1e1df8cf4b38ec67e">data_handler::s</a></div><div class="ttdeci">communicator &amp; s</div><div class="ttdoc">Объект класса communicator для отправки результата и приема значений вектора</div><div class="ttdef"><b>Definition:</b> data_handler.h:25</div></div>
+<div class="ttc" id="aclassdata__handler_html_aeaa3ee5bf7c66ff081cfe278d3a134a1"><div class="ttname"><a href="classdata__handler.html#aeaa3ee5bf7c66ff081cfe278d3a134a1">data_handler::calculator</a></div><div class="ttdeci">int64_t calculator(int64_t number1, int64_t number2)</div><div class="ttdoc">Метод вычисления произведения вектора</div><div class="ttdef"><b>Definition:</b> data_handler.cpp:51</div></div>
+<div class="ttc" id="acommunicator_8h_html"><div class="ttname"><a href="communicator_8h.html">communicator.h</a></div><div class="ttdoc">Заголовочный файл модуля communicator.</div></div>
+<div class="ttc" id="aerror_8h_html"><div class="ttname"><a href="error_8h.html">error.h</a></div><div class="ttdoc">Заголовочный файл для модуля error.</div></div>
+<div class="ttc" id="ajournal_8h_html"><div class="ttname"><a href="journal_8h.html">journal.h</a></div><div class="ttdoc">Заголовочный файл модуля journal.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

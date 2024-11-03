@@ -1,0 +1,11 @@
+<map id="journal.h" name="journal.h">
+<area shape="rect" id="node1" title="Заголовочный файл модуля journal." alt="" coords="295,5,374,32"/>
+<area shape="rect" id="node2" href="$base_8h.html" title="Заголовочный файл модуля base." alt="" coords="70,80,135,107"/>
+<area shape="rect" id="node4" href="$communicator_8h.html" title="Заголовочный файл модуля communicator." alt="" coords="271,155,398,181"/>
+<area shape="rect" id="node6" href="$data__handler_8h.html" title="Заголовочный файл модуля data_handler." alt="" coords="430,229,549,256"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="Главный файл проекта" alt="" coords="224,304,307,331"/>
+<area shape="rect" id="node9" href="$journal_8cpp.html" title="Исполняемый файл модуля journal." alt="" coords="474,80,569,107"/>
+<area shape="rect" id="node3" href="$base_8cpp.html" title="Исполняемый файл модуля base." alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node5" href="$communicator_8cpp.html" title="Исполняемый файл модуля communicator." alt="" coords="211,229,354,256"/>
+<area shape="rect" id="node7" href="$data__handler_8cpp.html" title="Исполняемый файл модуля data_handler." alt="" coords="423,304,556,331"/>
+</map>

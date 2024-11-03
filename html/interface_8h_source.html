@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SERV Маркина: Исходный файл interface.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SERV Маркина
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Курсовая работа</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">interface.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="interface_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;boost/program_options.hpp&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="error_8h.html">error.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>po = boost::program_options;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classinterface.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classinterface.html">interface</a>{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classinterface.html#a21327c5b2ee9e87264e4de065c46c762">   24</a></span>&#160;    po::options_description <a class="code" href="classinterface.html#a21327c5b2ee9e87264e4de065c46c762">desc</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classinterface.html#a55ed8f7dc60c46b7d008873eddf06fdf">   27</a></span>&#160;    po::variables_map <a class="code" href="classinterface.html#a55ed8f7dc60c46b7d008873eddf06fdf">vm</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classinterface.html#a62e461f6ba1310e1e8b11ebb0dd81282">interface</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    uint <a class="code" href="classinterface.html#ac3c21601bc463b9034b9ae7fc9f75103">get_port</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    std::string <a class="code" href="classinterface.html#a2d0e3c80974195809b1652610fa0afb2">get_base_destination</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    std::string <a class="code" href="classinterface.html#ad3c962f03ec60706df94986233964ff5">get_log_destination</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="ttc" id="aclassinterface_html"><div class="ttname"><a href="classinterface.html">interface</a></div><div class="ttdoc">Класс пользовательского интерфейса</div><div class="ttdef"><b>Definition:</b> interface.h:20</div></div>
+<div class="ttc" id="aclassinterface_html_a21327c5b2ee9e87264e4de065c46c762"><div class="ttname"><a href="classinterface.html#a21327c5b2ee9e87264e4de065c46c762">interface::desc</a></div><div class="ttdeci">po::options_description desc</div><div class="ttdoc">Описание запрашиваемых параметров в комстроке</div><div class="ttdef"><b>Definition:</b> interface.h:24</div></div>
+<div class="ttc" id="aclassinterface_html_a2d0e3c80974195809b1652610fa0afb2"><div class="ttname"><a href="classinterface.html#a2d0e3c80974195809b1652610fa0afb2">interface::get_base_destination</a></div><div class="ttdeci">std::string get_base_destination()</div><div class="ttdoc">Геттер расоложения базы данных</div><div class="ttdef"><b>Definition:</b> interface.cpp:40</div></div>
+<div class="ttc" id="aclassinterface_html_a55ed8f7dc60c46b7d008873eddf06fdf"><div class="ttname"><a href="classinterface.html#a55ed8f7dc60c46b7d008873eddf06fdf">interface::vm</a></div><div class="ttdeci">po::variables_map vm</div><div class="ttdoc">Разобранные значения параметров комстроки</div><div class="ttdef"><b>Definition:</b> interface.h:27</div></div>
+<div class="ttc" id="aclassinterface_html_a62e461f6ba1310e1e8b11ebb0dd81282"><div class="ttname"><a href="classinterface.html#a62e461f6ba1310e1e8b11ebb0dd81282">interface::interface</a></div><div class="ttdeci">interface(int argc, char *argv[])</div><div class="ttdoc">Конструктор инициализации</div><div class="ttdef"><b>Definition:</b> interface.cpp:12</div></div>
+<div class="ttc" id="aclassinterface_html_ac3c21601bc463b9034b9ae7fc9f75103"><div class="ttname"><a href="classinterface.html#ac3c21601bc463b9034b9ae7fc9f75103">interface::get_port</a></div><div class="ttdeci">uint get_port()</div><div class="ttdoc">Геттер порта</div><div class="ttdef"><b>Definition:</b> interface.cpp:25</div></div>
+<div class="ttc" id="aclassinterface_html_ad3c962f03ec60706df94986233964ff5"><div class="ttname"><a href="classinterface.html#ad3c962f03ec60706df94986233964ff5">interface::get_log_destination</a></div><div class="ttdeci">std::string get_log_destination()</div><div class="ttdoc">Геттер расоложения файла журнала</div><div class="ttdef"><b>Definition:</b> interface.cpp:51</div></div>
+<div class="ttc" id="aerror_8h_html"><div class="ttname"><a href="error_8h.html">error.h</a></div><div class="ttdoc">Заголовочный файл для модуля error.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
