@@ -1,0 +1,5 @@
+<map id="communicator" name="communicator">
+<area shape="rect" id="node1" title="Класс коммуникатора" alt="" coords="5,184,121,211"/>
+<area shape="rect" id="node2" href="$classbase.html" title="Класс базы данных" alt="" coords="71,95,125,121"/>
+<area shape="rect" id="node3" href="$classjournal.html" title="Класс записи сообщений в журнал" alt="" coords="26,5,93,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="communicator.h" name="communicator.h">
+<area shape="rect" id="node1" title="Заголовочный файл модуля communicator." alt="" coords="168,5,295,32"/>
+<area shape="rect" id="node2" href="$communicator_8cpp.html" title="Исполняемый файл модуля communicator." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$data__handler_8h.html" title="Заголовочный файл модуля data_handler." alt="" coords="172,80,291,107"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Главный файл проекта" alt="" coords="287,155,370,181"/>
+<area shape="rect" id="node4" href="$data__handler_8cpp.html" title="Исполняемый файл модуля data_handler." alt="" coords="130,155,263,181"/>
+</map>

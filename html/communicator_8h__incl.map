@@ -1,0 +1,36 @@
+<map id="communicator.h" name="communicator.h">
+<area shape="rect" id="node1" title="Заголовочный файл модуля communicator." alt="" coords="1261,5,1387,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="383,229,463,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,304,64,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="295,229,358,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="907,229,973,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="572,155,657,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1285,80,1363,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1387,80,1458,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1483,80,1557,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1582,80,1674,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1698,80,1801,107"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1825,80,1895,107"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1920,80,2016,107"/>
+<area shape="rect" id="node14" title=" " alt="" coords="2040,80,2115,107"/>
+<area shape="rect" id="node15" href="$data__handler_8h.html" title="Заголовочный файл модуля data_handler." alt="" coords="939,80,1058,107"/>
+<area shape="rect" id="node16" href="$error_8h.html" title="Заголовочный файл для модуля error." alt="" coords="819,229,883,256"/>
+<area shape="rect" id="node18" href="$journal_8h.html" title="Заголовочный файл модуля journal." alt="" coords="733,155,811,181"/>
+<area shape="rect" id="node20" title=" " alt="" coords="997,229,1064,256"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1039,155,1097,181"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1121,155,1185,181"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2139,80,2211,107"/>
+<area shape="rect" id="node25" href="$base_8h.html" title="Заголовочный файл модуля base." alt="" coords="477,80,542,107"/>
+<area shape="rect" id="node27" href="$interface_8h.html" title="Заголовочный файл модуля interface." alt="" coords="127,155,219,181"/>
+<area shape="rect" id="node29" title=" " alt="" coords="2235,80,2379,107"/>
+<area shape="rect" id="node30" title=" " alt="" coords="2403,80,2522,107"/>
+<area shape="rect" id="node31" title=" " alt="" coords="2547,80,2669,107"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2694,80,2818,107"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2842,80,2974,107"/>
+<area shape="rect" id="node34" title=" " alt="" coords="2999,80,3129,107"/>
+<area shape="rect" id="node17" title=" " alt="" coords="807,304,894,331"/>
+<area shape="rect" id="node19" title=" " alt="" coords="487,229,561,256"/>
+<area shape="rect" id="node21" title=" " alt="" coords="585,229,743,256"/>
+<area shape="rect" id="node26" title=" " alt="" coords="396,155,447,181"/>
+<area shape="rect" id="node28" title=" " alt="" coords="72,229,272,256"/>
+</map>

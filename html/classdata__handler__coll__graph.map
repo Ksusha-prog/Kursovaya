@@ -1,0 +1,6 @@
+<map id="data_handler" name="data_handler">
+<area shape="rect" id="node1" title="Класс обработки данных" alt="" coords="10,273,117,300"/>
+<area shape="rect" id="node2" href="$classcommunicator.html" title="Класс коммуникатора" alt="" coords="5,184,121,211"/>
+<area shape="rect" id="node3" href="$classbase.html" title="Класс базы данных" alt="" coords="71,95,125,121"/>
+<area shape="rect" id="node4" href="$classjournal.html" title="Класс записи сообщений в журнал" alt="" coords="26,5,93,32"/>
+</map>
